@@ -1,6 +1,6 @@
 {
   "name": "co-concat-stream",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Concat stream content, generator style",
   "main": "index.js",
   "repository": {
