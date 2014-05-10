@@ -1,0 +1,25 @@
+{
+  "name": "co-concat-stream",
+  "version": "0.0.0",
+  "description": "Concat stream content, generator style",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/madbence/co-concat-stream"
+  },
+  "keywords": [
+    "co",
+    "stream",
+    "concat",
+    "es6"
+  ],
+  "author": "Bence Dányi <madbence@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/madbence/co-concat-stream/issues"
+  },
+  "homepage": "https://github.com/madbence/co-concat-stream",
+  "dependencies": {
+    "co-read": "0.0.2"
+  }
+}
