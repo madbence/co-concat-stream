@@ -16,5 +16,13 @@ module.exports = function* (stream, opts) {
     }
     length += data.length;
   }
-  return Buffer.concat(body, length);
+  return !body.length
+      ? null
+    : Buffer.isBuffer(body[0])
+      ? Buffer.concat(body, length)
+    : typeof body[0] == 'string'
+      ? body.join('')
+    : Array.isArray(body[0])
+      ? [].concat.apply([], body)
+    : body;
 };
